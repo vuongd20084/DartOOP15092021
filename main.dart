@@ -1,4 +1,6 @@
 import 'animal.dart';
+import 'cat.dart';
+
 void main(){
 
   // var cat = Animal();
@@ -12,6 +14,13 @@ void main(){
   // print("${cat.name} ${cat.weight} kg");
 
   // showMessage("Xin chao");
+
+  var cat = Cat("Mèo" ,2,"Xám");
+
+  // print("${cat.name} ${cat.weight} kg , màu lông ${cat.color}");
+
+  cat.eat();
+  cat.run();
 }
 
 // void showMessage(String message){
